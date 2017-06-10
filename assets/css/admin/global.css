@@ -1,0 +1,244 @@
+
+/* Admin options */
+
+input.bg-hidden { display: none; }
+img.bg-img-select { border: 2px solid #eee; cursor: pointer; border-radius: 4px; background: #fff;}
+img.bg-img-select.selected {border: 2px solid #0074a2;}
+ul.bg-img-select-wrap {float: left; width: 100%; display: block; margin: 5px 0;}
+ul.bg-img-select-wrap li {float: left; margin-right: 1px;}
+.bg-disabled { opacity: 0.3; }
+
+.bg-img-select-wrap li span{
+	font-size: 11px;
+	display: block;
+	text-align: center;
+	max-width: 60px;
+	line-height: 13px;
+}
+
+input.bg-radio{
+	width: 16px;
+	margin-left:0;
+}
+
+.bg-rec-color{
+	width: 20px; 
+	height: 20px;
+	float: left; 
+	margin-right:3px; 
+	border: 1px solid #aaa;
+}
+
+#bg_modules,
+#bg_page_layouts,
+.post-type-page #bg_sidebar,
+#bg_pagination {
+	display: none;
+}
+
+/* Welcome panel */
+
+.welcome-panel.bg-welcome-panel{
+	margin: 33px 20px 0 0;
+	padding-bottom: 30px;
+}
+
+.welcome-panel.bg-welcome-panel .welcome-panel-column,
+.welcome-panel.bg-welcome-panel .welcome-panel-column:first-child{
+	 max-width: 350px;
+  	 margin-right: 40px;
+  	 width: 25%;
+}
+
+.bg-customize-welcome {
+	margin-top: 24px;
+  	display: inline-block;
+}
+
+
+/* Sections and modules */
+
+#bg-section-clone, .bg-section-form, #bg-module-clone, .bg-module-form {
+	display: none; 
+}
+
+#bg-sections{ margin-top: 10px; }
+
+.bg-section{
+	    width: 100%;
+    background: #f5f5f5;
+    min-height: 130px;
+    padding: 20px 20px 55px 20px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+  	-moz-box-sizing: border-box;
+    position: relative;
+    border: 1px solid rgba(0,0,0,0.1);
+}
+
+.bg-section.ui-sortable-helper, .bg-module.ui-sortable-helper{
+	opacity: 0.8;
+}
+
+.bg-section-drop {
+	width: 100%;
+	min-height: 200px;
+	background: transparent;
+	border: 1px dashed #aaa;
+	margin-bottom: 10px;
+}
+
+.section-bottom{
+	width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 10px;
+    background: #e5e5e5;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+  	-moz-box-sizing: border-box;
+    border-top: 1px solid rgba(0,0,0,0.1);
+}
+
+.section-bottom .left, .bg-module .left{
+	float: left;
+}
+
+.section-bottom .right, .bg-module .right{
+	float: right;
+}
+.section-bottom .right > span {
+	    display: inline-block;
+	    margin: 5px 5px 0 0;
+}
+
+.bg-module{
+	width: 100%;
+    background: #eaeaea;
+    border: 1px solid rgba(0,0,0,0.1);
+    height: 50px;
+    padding: 15px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+  	-moz-box-sizing: border-box;
+    border-radius: 2px;
+}
+
+.bg-module-type{
+    background: rgba(0,0,0,0.05);
+    margin-top: -16px;
+    margin-left: -16px;
+    width: 186px;
+    height: 18px;
+    padding: 16px;
+  	float: left;
+    margin-right: 15px;
+    border-right: 1px solid rgba(0,0,0,0.1);
+}
+
+.bg-module-title{
+    font-weight: 600;
+}
+
+.bg-module-drop {
+	width: 100%;
+	height: 50px;
+	background: transparent;
+	border: 1px dashed #aaa;
+	margin-bottom: 15px;
+	border-radius: 2px;
+}
+
+.bg-remove-module{
+	color: #a00;
+}
+
+.bg-remove-module:hover{
+	color: red;
+}
+
+.bg-opt{
+	width: 100%;
+    display: block;
+    float: left;
+    clear: both;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #ebebeb;
+    margin-bottom: 25px;
+}
+
+.bg-opt:last-child{
+	 border-bottom: 0;
+}
+
+.bg-opt-title{
+	font-weight: bold;
+	width: 30%;
+	display: inline-block;
+	float: left;
+}
+
+.bg-opt-content{
+	display: inline-block;
+	float: left;
+	width: 70%;
+}
+
+.bg-fit-height{
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+.bg-opt-tabs{
+	float: left;
+    display: block;
+    width: 100%;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    margin: 0 0 30px -16px;
+    padding-left: 16px;
+}
+
+.bg-opt-tabs a{
+	    float: left;
+    display: inline-block;
+    margin: 0 0 -1px -1px;
+    padding: 10px 20px;
+    border: 1px solid rgba(0,0,0,0.2);
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+  	-moz-box-sizing: border-box;
+    text-decoration: none;
+    background-color: #ebebeb;
+}
+
+.bg-opt-tabs a.active{
+	background-color: #fff;
+    border-bottom: 1px solid #fff;
+}
+
+.bg-opt-tabs a, .bg-opt-tabs a:hover, .bg-opt-tabs a:focus{
+	outline: 0 !important;
+	box-shadow: none !important;
+}
+ 
+.bg-tab{
+
+	display: none;
+}
+
+.bg-tab.first{
+	display: block;
+}
+
+.bg-opt textarea{ 
+	width: 100%;
+	height: 200px;
+}
+
+
+.bg-opt .howto{
+    max-width: 300px;
+}
