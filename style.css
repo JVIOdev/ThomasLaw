@@ -3933,3 +3933,464 @@ section.landing-contacts {
     margin-top: 13px;
 }
 }
+
+
+
+/*MILITARY LANDING PAGE*/
+
+.page_head_bg.military_landing_page, .page_head_bg.military_landing_page .entry-header {
+    height: 635px;
+    margin-bottom: -35px;
+}
+
+.military_landing_page {
+    background: url(/wp-content/themes/thomaslawplc/assets/images/military_bg.jpg);
+}
+
+.military_landing_page:before {
+    background: -moz-linear-gradient(left, rgba(28,65,87,1) 0%, rgba(0,132,255,0) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, rgba(28,65,87,1) 0%,rgba(0,132,255,0) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, rgba(28,65,87,1) 0%,rgba(0,132,255,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1c4157', endColorstr='#000084ff',GradientType=1 ); /* IE6-9 */
+}
+
+.military_landing_page .entry-header {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.military_landing_page .entry-header .title_header {
+    max-width: 575px;
+    padding-left: 60px;
+    text-align: left;
+    position: relative;
+    top: 210px;
+}
+
+.military_landing_page .entry-header .title_header h1 {
+    text-align: left;
+    font-size: 57px;
+    color: #fff;
+    line-height: 65px;
+    margin-bottom: 35px;
+}
+
+.military_landing_page .entry-header .title_header h1.t-title:after {
+    display: none;
+}
+
+.military_landing_page .entry-header .title_header p {
+    font-size: 17px;
+    color: #fff;
+    margin-bottom: 40px; 
+}
+
+.military_landing_content > #main > div {
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
+}
+
+.military_landing.call_to_action span.phone {
+    color: #0b78b9;
+    text-decoration: underline;
+}
+
+.row.military_landing.call_to_action {
+    border-bottom: 1px solid #ccc;
+}
+
+.row.military_landing.call_to_action .hero-text {
+    margin-bottom: 15px;
+}
+
+.military_landing_content article .entry-content  > div > div{
+    max-width: 1050px;
+    margin: 0 auto;
+}
+
+.landing_we_can_help {
+    margin: -85px 0 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.landing_we_can_help.military_help_img>.row {
+    background: url(/wp-content/themes/thomaslawplc/assets/images/military_help_bg.jpg);
+    min-height: 402px;
+    background-size: 512px;
+    background-repeat: no-repeat;
+    padding-top: 85px;
+    background-position: right center;
+}
+
+.landing_we_can_help.military_help_img h3 {
+    margin-top: 7px;
+}
+
+.military_landing_content h3 {
+    text-transform: uppercase;
+    color: #252525;
+    font-weight: 600;
+    margin-bottom: 23px;
+}
+
+
+.military_landing_content p {
+    color: #737373;
+    font-size: 17px;
+    margin-bottom: 40px;
+}
+
+.landing_we_can_help > div {
+    margin-top: 85px;
+}
+
+.landing_we_can_help.military_help_img>div img {
+    margin-top: -57px;
+    border-radius: 10px;
+}
+
+.landing_benefits>.row {
+    padding-left: 15px;
+    padding-top: 110px;
+}
+
+ul.img_disc_check {
+    margin-top: 35px;
+}
+
+ul.img_disc_check li {
+    list-style: none !important;
+    margin-left: 50px;
+}
+
+ul.img_disc_check li:before {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    margin-top: -2px;
+    content: '';
+    background: url(/wp-content/themes/thomaslawplc/assets/images/img_disc_check.png);
+    left: 24px;
+}
+
+.centered {
+    text-align: center;
+}
+
+.righted {
+    text-align: right;
+}
+
+.landing_promo_table {
+    box-shadow: 3px 4px 59px 0px rgba(0, 0, 0, 0.26); 
+    padding: 25px 10px;
+}
+
+.landing_promo_table p.name {
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #0b78b9;
+    font-size: 15px;
+    margin-bottom: 18px;
+}
+
+.landing_promo_table p.items {
+    font-size: 16px;
+    margin-bottom: 18px;
+}
+
+p.landing_note {
+    font-size: 14px;
+    padding-right: 10px;
+}
+
+.here_to_help {
+    background: #f5f5f5;
+    margin-top: -60px;
+    position: relative;
+    padding-top: 65px;
+}
+
+.here_to_help h3 {
+    margin-top: 55px;
+}
+
+.here_to_help h3:after {
+    content: " ";
+    display: block;
+    background-color: #0b78b9;
+    width: 57px;
+    height: 1px;
+    margin: 10px auto 0;
+}
+
+.here_to_help h5 {
+    font-size: 14px;
+    margin: -14px 0 30px;
+}
+
+.landing_rating {
+    box-shadow: 3px 4px 43px 0 rgba(0,0,0,.17) inset;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    padding: 15px 0 17px;
+}
+
+#landing_rating_input.main_badges {
+    background: none;
+    z-index: 100;
+    position: relative;
+    box-shadow: none;
+    min-height: initial;
+    border-radius: 0;
+    padding: 5px 10px;
+    margin: 0 25%;
+}
+
+.landing_testimonials {
+    padding: 130px 0 75px;
+    border-bottom: 1px solid #ccc;
+}
+
+.landing_testimonials p.testimonial_text {
+    padding-top: 21px;
+    font-size: 25px;
+    font-weight: 300;
+    color: #0a79b9;
+    margin-bottom: 21px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.landing_testimonials p.testimonial_text:before {
+    position: absolute;
+    width: 10%;
+    height: 28px;
+    content: '';
+    background: url(/wp-content/themes/thomaslawplc/assets/images/test_quote.png) no-repeat;
+    left: 45%;
+    max-width: 34px;
+    top: -35px;
+}
+
+.landing_testimonials p.testimonial_name {
+    text-align: right;
+    font-size: 15px;
+    color: #252525;
+}
+
+section.landing-contacts {
+    padding: 17px 0 75px !important;
+}
+
+section.landing-contacts .contact-s {
+    margin-bottom: 35px;
+}
+
+.contacts_footer {
+    font-size: 15px;: 
+}
+
+@media screen and (max-width:767px) {
+.page_head_bg.military_landing_page,
+.page_head_bg.military_landing_page .entry-header {
+    height: 465px;
+}  
+.military_landing_page .entry-header .title_header {
+    padding-left: 40px;
+    top: 90px;
+    width: 90%;
+}
+.military_landing_page .entry-header .title_header h1 {
+    text-align: left;
+    font-size: 30px;
+    color: #fff;
+    line-height: 35px;
+    margin-bottom: 35px;
+}
+.military_landing_page .entry-header .title_header p {
+    margin-bottom: 20px;
+}
+.hero-text .talk-bubble p {
+    font-size: 21px;
+    line-height: 28px;
+}
+.military_landing_content article {
+    padding-left: 20px;
+    padding-right: 15px;
+}
+.landing_we_can_help {
+    margin: -85px -15px 0px -20px;
+}
+.landing_we_can_help>.row {
+    padding-top: 0;
+}
+.landing_we_can_help>div img {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.landing_we_can_help .btn-primary {
+    font-size: 12px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+.landing_we_can_help .row > div:nth-child(2) {
+    padding: 0 20px;
+}
+.landing_benefits>.row {
+    padding-left: 0;
+    padding-top: 40px;
+}
+ul.img_disc_check {
+    margin-bottom: 40px;
+}
+.landing_promo_table {
+    padding: 15px 10px 50px;
+    margin-top: 40px;
+}
+.landing_promo_table > div {
+    width: 50%;
+    float: left;
+}
+.landing_promo_table p.name {
+    font-size: 15px;
+    margin-bottom: 0;
+    min-height: 50px;
+}
+.landing_promo_table p.items {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+p.landing_note {
+    text-align: center;
+}
+.here_to_help {
+    margin-left: -20px;
+    margin-right: -20px;
+    padding-left: 10px;
+    padding-right: 15px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.here_to_help .btn-primary {
+    font-size: 11px;
+    padding: 15px;
+}
+.military_landing_content p {
+    margin-bottom: 10px;
+}
+.landing_rating {
+    margin: 0 -15px 0 -20px;
+}
+#landing_rating_input.main_badges {
+    margin: 0;
+}
+.main_badges>.col-lg-4.avvo {
+    margin-top: 20px;
+}
+.main_badges>.col-lg-4.super_lawyers {
+    margin-bottom: 10px;
+}
+.landing_testimonials {
+    padding: 70px 0 0;
+    border-bottom: 1px solid #ccc;
+    margin: 0 -15px 0 -20px;
+}
+.landing_testimonials p.testimonial_text {
+    padding-top: 10px;
+    font-size: 20px;
+}
+.landing_testimonials p.testimonial_name {
+    text-align: center;
+    margin-bottom: 60px;
+}
+section.landing-contacts {
+    padding: 0 10px 30px !important;
+    margin-top: -30px;
+}   
+}
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+.landing_we_can_help .row > .col-lg-6 {
+    width: 50%;
+    float: left;
+}
+.landing_benefits .row > .col-lg-5 {
+    width: 50%;
+    float: left;
+}
+.landing_promo_table {
+    width: 98%;
+    float: left;
+    margin-top: 20px;
+}
+.landing_promo_table > div {
+    width: 25%;
+    float: left;
+}
+.here_to_help .col-lg-8 {
+    width: 80%;
+    margin: 0 auto;
+}
+#landing_rating_input.main_badges {
+    width: 80%;
+    margin: 0 auto;
+}
+.landing_testimonials .col-lg-6 {
+    float: left;
+    width: 50%;
+}
+.landing_testimonials p.testimonial_name {
+    padding-right: 20px;
+}
+}
+
+@media screen and (min-width:1024px) and (max-width:1199px) {
+.landing_we_can_help .row > .col-lg-6 {
+    width: 50%;
+    float: left;
+}
+.landing_benefits .row > .col-lg-5 {
+    width: 50%;
+    float: left;
+}
+.landing_promo_table {
+    width: 73%;
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.landing_promo_table > div {
+    width: 25%;
+    float: left;
+}
+.here_to_help .col-lg-8 {
+    width: 80%;
+    margin: 0 auto;
+}
+#landing_rating_input.main_badges {
+    width: 80%;
+    margin: 0 auto;
+}
+.landing_testimonials .col-lg-6 {
+    float: left;
+    width: 50%;
+}
+.landing_testimonials p.testimonial_name {
+    padding-right: 20px;
+}
+.military_landing .hero-text .talk-bubble {
+    width: 78%;
+}
+}
+
+@media screen and (min-width:1024px) {
+.military_landing_content h3 {
+    text-transform: uppercase;
+    color: #252525;
+    font-weight: 600;
+    margin-bottom: 23px;
+    margin-top: 13px;
+}
+}
