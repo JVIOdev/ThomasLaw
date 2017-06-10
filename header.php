@@ -224,8 +224,8 @@ $cat = get_the_category();
     <div class="page_head page_head_bg credit_repair_landing_page">
         <header class="entry-header">
             <div class="title_header">
-                <h1 class="t-title">Don’t Lose your Career to a Bad Credit Report</h1>
-                <p>Don’t let inaccurate and unfair credit reporting get your down. You have options and rights. The experts at Thomas Law can help you fix your credit report.</p>
+                <h1 class="t-title">Don’t let credit errors get you down</h1>
+                <p>You have options and rights. The attorneys at Thomas Law can help you fix your credit report.</p>
                 <a href="/contact-us" class="btn btn-primary btn-filled">Get Started Today</a>
             </div>
         </header>
@@ -239,8 +239,8 @@ $cat = get_the_category();
     <div class="page_head page_head_bg military_landing_page">
         <header class="entry-header">
             <div class="title_header">
-                <h1 class="t-title">Don’t let credit errors get you down.</h1>
-                <p>You have options and rights. The attorneys at Thomas Law can help you fix your credit report.</p>
+                <h1 class="t-title">Don’t Lose your Career to a Bad Credit Report</h1>
+                <p>Don’t let inaccurate and unfair credit reporting get your down. You have options and rights. The experts at Thomas Law can help you fix your credit report.</p>
                 <a href="/contact-us" class="btn btn-primary btn-filled">Get Started Today</a>
             </div>
         </header>

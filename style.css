@@ -3948,9 +3948,9 @@ section.landing-contacts {
 }
 
 .military_landing_page:before {
-    background: -moz-linear-gradient(left, rgba(28,65,87,1) 0%, rgba(0,132,255,0) 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(left, rgba(28,65,87,1) 0%,rgba(0,132,255,0) 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to right, rgba(28,65,87,1) 0%,rgba(0,132,255,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    background: -moz-linear-gradient(left, rgba(28,65,87,.4) 0%, rgba(0,132,255,0) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, rgba(28,65,87,.4) 0%,rgba(0,132,255,0) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, rgba(28,65,87,.4) 0%,rgba(0,132,255,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1c4157', endColorstr='#000084ff',GradientType=1 ); /* IE6-9 */
 }
 
@@ -3960,7 +3960,7 @@ section.landing-contacts {
 }
 
 .military_landing_page .entry-header .title_header {
-    max-width: 575px;
+    max-width: 695px;
     padding-left: 60px;
     text-align: left;
     position: relative;
