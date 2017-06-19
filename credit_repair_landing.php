@@ -30,7 +30,7 @@ get_header(); ?>
                                 <div class="col-lg-12">
                                     <div class="talk-bubble tri-left round left-top">
                                         <div class="talktext">
-                                            <p>Call <span class="phone">703-957-2577</span> for a <strong>free</strong> consultation.</p>
+                                            <p>Call <span class="phone">(571) 642-1659</span> for a <strong>free</strong> consultation.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -109,6 +109,66 @@ x=jQuery('#landing_rating_output').html();
 jQuery('#landing_rating_input').html(x);
 jQuery('#landing_rating_output').remove();
 
+function showLeftPartTable() {
+    jQuery('.landing_promo_table > div').addClass('inactive');
+    jQuery('.mobile_arrow_left').addClass('inactive');
+    jQuery('.mobile_arrow_right').addClass('inactive');
+
+    jQuery('.promo_bullets > li').removeClass('active');
+    jQuery('.left_part_li').addClass('active');
+
+    jQuery('.landing_promo_table > div:nth-child(2)').removeClass('inactive');
+    jQuery('.landing_promo_table > div:nth-child(3)').removeClass('inactive');
+    jQuery('.mobile_arrow_right').removeClass('inactive');
+}
+
+function showRightPartTable() {
+    jQuery('.landing_promo_table > div').addClass('inactive');
+    jQuery('.mobile_arrow_left').addClass('inactive');
+
+    jQuery('.promo_bullets > li').removeClass('active');
+    jQuery('.right_part_li').addClass('active');
+
+    jQuery('.mobile_arrow_right').addClass('inactive');    
+    jQuery('.landing_promo_table > div:nth-child(5)').removeClass('inactive');
+    jQuery('.landing_promo_table > div:nth-child(6)').removeClass('inactive');
+    jQuery('.mobile_arrow_left').removeClass('inactive');
+}
+
+function setMobileLandingPromoTable() {
+    if (window.innerWidth >=320 && window.innerWidth <=569) {
+        var x = document.createElement('div');
+        x.className = 'mobile_arrow_right';
+        var y = document.createElement('div');
+        y.className = 'mobile_arrow_left';
+        jQuery(x).insertBefore('.landing_promo_table > div:nth-child(3)');
+        jQuery(y).insertBefore('.landing_promo_table > div:nth-child(1)');
+
+        var z = document.createElement('ul');
+        z.className = 'promo_bullets';
+        z.innerHTML = '<li class="left_part_li"></li><li class="right_part_li"></li>'
+        jQuery(z).insertAfter('.landing_promo_table');
+
+
+
+        showLeftPartTable();
+
+        jQuery('.mobile_arrow_right').click(function() {
+            showRightPartTable();
+        })
+        jQuery('.right_part_li').click(function() {
+            showRightPartTable();
+        })
+        jQuery('.mobile_arrow_left').click(function() {
+            showLeftPartTable();
+        })  
+        jQuery('.left_part_li').click(function() {
+            showLeftPartTable();
+        })                
+    }
+}
+
+setMobileLandingPromoTable();
 </script>
 
 <?php get_footer();
