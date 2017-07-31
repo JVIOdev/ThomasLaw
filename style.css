@@ -4161,16 +4161,21 @@ section.landing-contacts {
     transition: all .4s ease-out    
 }
 
-.landing_footer {
+.landing_footer,
+.landing_header {
     display: none;
 }
 
-.page-template-military_landing-php .landing_footer,
-.page-template-credit_repair_landing-php .landing_footer {
+.page-template-military_landing-php .military_phone.landing_footer,
+.page-template-credit_repair_landing-php .credit_repair_phone.landing_footer,
+.page-template-military_landing-php .military_phone.landing_header,
+.page-template-credit_repair_landing-php .credit_repair_phone.landing_header {
     display: inline-block;
 }
 
 .page-template-military_landing-php .landing_footer + .no_landing,
-.page-template-credit_repair_landing-php .landing_footer + .no_landing {
+.page-template-credit_repair_landing-php .landing_footer + .no_landing,
+.page-template-military_landing-php .landing_header + .no_landing,
+.page-template-credit_repair_landing-php .landing_header + .no_landing {
     display: none;
 }

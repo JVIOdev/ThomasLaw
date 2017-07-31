@@ -30,7 +30,7 @@ get_header(); ?>
                                 <div class="col-lg-12">
                                     <div class="talk-bubble tri-left round left-top">
                                         <div class="talktext">
-                                            <p>Call <span class="phone">(571) 642-1659</span> for a <strong>free</strong> consultation.</p>
+                                            <p>Call <span class="phone">(571) 642-1658</span> for a <strong>free</strong> consultation.</p>
                                         </div>
                                     </div>
                                 </div>
