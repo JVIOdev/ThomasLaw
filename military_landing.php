@@ -14,6 +14,40 @@
  */
 get_header(); ?>
 
+    <section class="landing-e-book" id="e-book">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5">
+                    <h1>What You Get</h1>
+                    <ul class="img_disc_check">
+                        <li>Know your report</li>
+                        <li>Understand your report</li>
+                        <li>Dispute best practices</li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 centered">
+                    <a href="" id="show_pop_e_book" class="popmake-e_book btn btn-primary btn-filled">GET THE FREE GUIDE</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<div id="primary" class="content-area military_landing_content">
+    <main id="main" class="site-main" role="main">
+        <?php
+            while ( have_posts() ) : the_post();
+                get_template_part( 'template-parts/content', 'page' );
+
+                // If comments are open or we have at least one comment, load up the comment template.
+                if ( comments_open() || get_comments_number() ) :
+                    comments_template();
+                endif;
+
+            endwhile; // End of the loop.
+        ?>
+    </main><!-- #main -->
+</div><!-- #primary -->
+
 <div class="row military_landing call_to_action">
     <div class="container align-vertical hero-text" style="padding-top: 70px;">
         <div class="row">
@@ -42,22 +76,6 @@ get_header(); ?>
         </div>
     </div>
 </div>
-
-<div id="primary" class="content-area military_landing_content">
-    <main id="main" class="site-main" role="main">
-        <?php
-            while ( have_posts() ) : the_post();
-                get_template_part( 'template-parts/content', 'page' );
-
-                // If comments are open or we have at least one comment, load up the comment template.
-                if ( comments_open() || get_comments_number() ) :
-                    comments_template();
-                endif;
-
-            endwhile; // End of the loop.
-        ?>
-    </main><!-- #main -->
-</div><!-- #primary -->
 
     <section class="landing-contacts" id="contact-box">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.2/js/bootstrap-select.min.js"></script>

@@ -4062,7 +4062,7 @@ section.landing-contacts {
     font-size: 30px;
     color: #fff;
     line-height: 35px;
-    margin-bottom: 35px;
+    margin-bottom: 20px;
 }
 .military_landing_page .entry-header .title_header p {
     margin-bottom: 20px;
@@ -4173,9 +4173,249 @@ section.landing-contacts {
     display: inline-block;
 }
 
+
+/*NEW LANDING DESIGN*/
+
 .page-template-military_landing-php .landing_footer + .no_landing,
 .page-template-credit_repair_landing-php .landing_footer + .no_landing,
 .page-template-military_landing-php .landing_header + .no_landing,
-.page-template-credit_repair_landing-php .landing_header + .no_landing {
+.page-template-credit_repair_landing-php .landing_header + .no_landing,
+.page-template-credit_repair_landing-php .mobile-toggle,
+.page-template-military_landing-php .mobile-toggle{
     display: none;
+}
+
+
+@media screen and (min-width: 768px) {
+.page-template-military_landing .utility-menu,
+.page-template-military_landing .menu-header,
+.page-template-military_landing .appblock,
+.page-template-credit_repair_landing .utility-menu,
+.page-template-credit_repair_landing .menu-header,
+.page-template-credit_repair_landing .appblock {
+    display: none;
+}
+
+.page-template-military_landing .header-block,
+.page-template-credit_repair_landing .header-block {
+    width: 245px;
+    float: right;
+    height: 104px;
+}
+
+.page-template-military_landing .header-block .logoblock, 
+.page-template-credit_repair_landing .header-block .logoblock {
+    margin-left: 28px;
+    margin-top: 27px;
+}
+
+
+.page-template-military_landing .call_to_action .hero-text,
+.page-template-credit_repair_landing .call_to_action .hero-text {
+    margin-top: 0;
+
+}
+
+.military_landing_page .entry-header .title_header,
+.credit_repair_landing_page .entry-header .title_header {
+    top: 155px;
+}
+}
+
+.page_head_bg.military_landing_page, .page_head_bg.military_landing_page .entry-header,
+.page_head_bg.credit_repair_landing_page, .page_head_bg.credit_repair_landing_page .entry-header {
+    margin-bottom: 0;
+}
+
+.page-template-military_landing .header-box,
+.page-template-credit_repair_landing .header-box {
+    box-shadow: none;
+}
+
+.landing-e-book {
+    background: url(assets/images/e_book.jpg) no-repeat right 80px #f3f3f3;
+}
+
+.landing-e-book .container {
+    padding: 96px 88px;
+}
+
+.landing-e-book h1 {
+    font-size: 57px;
+    font-weight: 300;
+}
+
+.landing-e-book ul li {
+    font-size: 17px;
+    color: #737373;
+    margin-bottom: 18px;
+}
+
+.landing-e-book #show_pop_e_book{
+    margin: 76px 0 0 -117px;
+}
+
+.landing-e-book + #primary .landing_we_can_help {
+    margin: -10px 0 0;
+}
+
+.popmake-content {
+    text-align: center; 
+}
+
+.popmake-content h2 {
+    font-size: 18px;
+    color: #0084ff;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom: 6px;
+}
+
+.popmake-content h1 {
+    font-size: 57px;
+    color: #252525;
+    font-weight: 300;
+    margin-bottom: 31px;
+}
+
+.popmake-content+.popmake-close {
+    background: none !important;
+    right: -33px !important;
+    font-size: 27px !important;
+    top: 0px !important;
+}
+
+.popmake-content input[type="text"], .popmake-content input[type="email"] {
+    width: 100%;
+    border: 0 !important;
+    border-bottom: 3px solid #e5e5e5 !important;
+    padding: 15px !important;
+    resize: none;
+    background: none !important;
+    max-width: 430px;
+}
+
+#popmake-993 {
+    background: url(assets/images/e_book.jpg) no-repeat 400px 250px #f3f3f3 !important;
+    background-size: 60% !important;
+    padding: 54px !important;
+}
+
+@media screen and (max-width: 767px) {
+.page-template-credit_repair_landing-php .logo,
+.page-template-military_landing-php .logo {
+    float: none !important;
+    margin-left: 0 !important;
+}
+
+.landing-e-book h1 {
+    font-size: 35px !important;
+}
+
+.landing-e-book .container {
+    padding: 72px 20px !important;
+}
+
+.page-template-credit_repair_landing-php .landing-e-book ul.img_disc_check,
+.page-template-military_landing-php .landing-e-book ul.img_disc_check {
+    margin-bottom: -42px !important;
+}
+
+.landing-e-book {
+    background: url(assets/images/e_book.jpg) no-repeat right 240px #f3f3f3 !important;
+    background-size: 80% !important;
+}
+
+.landing-e-book #show_pop_e_book {
+    margin: 76px 0 0 0 !important;
+}
+
+#popmake-993 {
+    background: url(assets/images/e_book.jpg) no-repeat 210px 250px #f3f3f3 !important;
+    background-size: 100% !important;
+    padding: 40px 24px !important;
+    top: 50px !important;
+}
+
+.popmake-content h1 {
+    font-size: 32px !important;
+}
+
+.popmake-content .btn-primary {
+    font-size: 14px;
+}
+
+.popmake-content+.popmake-close {
+    right: 5px !important;
+    font-size: 38px !important;
+    top: -36px !important;
+}
+
+.military_landing.call_to_action .hero-text {
+    margin-top: 26px;
+}
+
+div.wpcf7-mail-sent-ok {
+    margin: 0 !important;
+}
+}
+
+#show_pop_e_book br {
+    display: none;
+}
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+#show_pop_e_book {
+    float: left;
+    line-height: 22px;
+}
+#show_pop_e_book br {
+    display: block;
+}
+
+#show_pop_ebook_header {
+    padding: 15px 10px;
+}
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+.landing-e-book {
+    background-position: 330px 80px;
+}
+
+.landing-e-book #show_pop_e_book {
+    margin: 46px 0 0 0;
+    float: left;
+}
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1199px) {
+.landing-e-book #show_pop_e_book {
+    margin: 46px 0 0 0;
+    float: left;
+}
+}
+
+div.wpcf7-mail-sent-ok {
+    border: 0;
+    margin: 52px;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.thank_you_form_img {
+    max-width: 64px !important;
+    margin-bottom: 8px;
+    margin-top: 10px;
+}
+
+.wpcf7-response-output a {
+    display: block;
+    margin: 20px auto;
+    max-width: 370px;
+}
+
+.btn-primary.btn-filled {
+    outline: 0 !important;
 }
